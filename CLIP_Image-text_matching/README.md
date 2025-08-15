@@ -46,14 +46,14 @@
 启动后访问 http://127.0.0.1:6006 即可使用搜索功能
 
 # ✨项目结构
-CLIP_Image-text_matching
-├── cfg/
-│   └── config.yaml         # 配置文件（数据路径、模型路径等）
-├── scripts/
-│   └── insert_search.py    # 核心功能模块（模型初始化、向量处理、搜索逻辑）
-├── main.py                 # Gradio交互界面
-├── test_connect.py         # Milvus数据库初始化工具（创建库、集合、索引等）
-└── README.md               # 项目说明文档
+    CLIP_Image-text_matching
+    ├── cfg/
+    │   └── config.yaml         # 配置文件（数据路径、模型路径等）
+    ├── scripts/
+    │   └── insert_search.py    # 核心功能模块（模型初始化、向量处理、搜索逻辑）
+    │   └── main.py                 # Gradio交互界面
+    │   └──test_connect.py         # Milvus数据库初始化工具（创建库、集合、索引等）
+    └── README.md               # 项目说明文档
 # ⚡️核心模块说明
     insert_search.py：实现 CLIP 模型加载、文本 / 图像向量生成、Milvus 交互、批量插入和搜索功能
     main.py：基于 Gradio 构建的 Web 交互界面，支持文本输入和图像上传
