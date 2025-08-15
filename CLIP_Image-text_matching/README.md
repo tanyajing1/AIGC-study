@@ -67,7 +67,7 @@ CLIP_Image-text_matching
     搜索结果返回最相似的 6 张图像，不足时将显示空值。
 
 界面展示：
-<img src="/Users/annie/Desktop/截屏2025-08-06 17.11.47.png"/>
+![项目截图](https://github.com/tanyajing1/AIGC-study/blob/78c6f2b80af36a58f4f1e15fcb4467dea9f5b45f/%E6%88%AA%E5%B1%8F2025-08-06%2017.11.47.png)
 
 
 
