@@ -28,17 +28,19 @@
     model: openai/clip-vit-base-patch32  # 可使用HuggingFace模型ID或本地模型路径
 4. 数据集下载：https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz
 
-# 🌟使用说明
+# 🌟使用说明（运行方式）
 1. 初始化 Milvus 数据库
     # 首次使用需创建数据库、集合和索引：
         bash
         python test_connect.py
 注意：根据需要解除test_connect.py中主函数里对应步骤的注释
+
 2. 批量导入图像数据
     # 将图像数据集转换为向量并导入 Milvus：
         bash
         python insert_search.py
 程序会递归处理config.yaml中data_path下的所有子目录中的 JPG 图像
+
 3. 启动搜索界面
 # 
     bash
